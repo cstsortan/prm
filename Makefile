@@ -5,7 +5,8 @@ sync-skill:
 
 build-web:
 	cd web && npm run build
-	rm -rf internal/web/static/*
+	rm -rf internal/web/static
+	mkdir -p internal/web/static
 	cp -r web/dist/* internal/web/static/
 
 build: sync-skill build-web
