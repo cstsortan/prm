@@ -14,6 +14,18 @@ A CLI project management tool that lives inside your codebase. PRM stores all da
 
 ## Install
 
+```bash
+curl -sSL https://raw.githubusercontent.com/cstsortan/prm/main/install.sh | sh
+```
+
+Or with Go:
+
+```bash
+go install github.com/cstsortan/prm@latest
+```
+
+### Build from source
+
 Requires Go 1.24+ and Node.js (for the web UI).
 
 ```bash
