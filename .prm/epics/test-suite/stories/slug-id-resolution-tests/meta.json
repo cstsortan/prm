@@ -1,0 +1,16 @@
+{
+  "id": "d4404f80-64f6-4de2-97d9-83aa6e7979b6",
+  "type": "story",
+  "slug": "slug-id-resolution-tests",
+  "title": "Slug \u0026 ID Resolution Tests",
+  "status": "done",
+  "priority": "medium",
+  "tags": [
+    "backend"
+  ],
+  "created_at": "2026-03-10T07:06:43.596001Z",
+  "updated_at": "2026-03-10T07:35:00.119912Z",
+  "started_at": "2026-03-10T07:11:37.320628Z",
+  "completed_at": "2026-03-10T07:35:00.119912Z",
+  "parent_id": "1f6f3116-9a95-4821-b7f9-0a0cfb6465d1"
+}

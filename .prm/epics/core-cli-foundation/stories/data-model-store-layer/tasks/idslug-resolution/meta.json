@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-03-10T07:07:12.10564Z",
+  "id": "76a850e6-5be4-4f30-866f-9a1582187747",
+  "parent_id": "c725df82-aa4e-463a-9234-b9e345137200",
+  "priority": "medium",
+  "slug": "idslug-resolution",
+  "status": "done",
+  "title": "ID/slug resolution",
+  "type": "sub-task",
+  "updated_at": "2026-03-10T07:07:12.10564Z"
+}

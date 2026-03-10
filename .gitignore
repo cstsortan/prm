@@ -1,0 +1,5 @@
+.DS_Store
+bin/
+*.tmp
+internal/web/static/*
+!internal/web/static/.gitkeep

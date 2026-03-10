@@ -1,0 +1,13 @@
+{
+  "id": "507ac7e9-6c7a-4fa1-a317-b8da65cec987",
+  "type": "task",
+  "slug": "add-go-test-ci-workflow",
+  "title": "Add go test CI workflow",
+  "status": "backlog",
+  "priority": "medium",
+  "tags": [
+    "devops"
+  ],
+  "created_at": "2026-03-10T07:07:26.52263Z",
+  "updated_at": "2026-03-10T07:07:26.52263Z"
+}

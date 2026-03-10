@@ -1,0 +1,22 @@
+{
+  "id": "4e0338e9-9655-491c-b0bf-4aa5e691efea",
+  "type": "story",
+  "slug": "create-entity-wizard",
+  "title": "Create Entity Wizard",
+  "status": "done",
+  "priority": "high",
+  "tags": [
+    "frontend"
+  ],
+  "created_at": "2026-03-10T07:06:38.084072Z",
+  "updated_at": "2026-03-10T07:54:47.877666Z",
+  "completed_at": "2026-03-10T07:54:47.877666Z",
+  "parent_id": "f14c50e5-8da9-4b3f-bcd1-f8e69e714188",
+  "children": [
+    "title-input-prompt",
+    "priority-selector",
+    "status-selector",
+    "tags-input-with-autocomplete",
+    "due-date-picker"
+  ]
+}

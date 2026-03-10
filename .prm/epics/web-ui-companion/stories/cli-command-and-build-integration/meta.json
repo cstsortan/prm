@@ -1,0 +1,16 @@
+{
+  "id": "2f285b69-ee95-4c47-a168-b9475e0ef857",
+  "type": "story",
+  "slug": "cli-command-and-build-integration",
+  "title": "CLI Command \u0026 Build Integration",
+  "status": "done",
+  "priority": "medium",
+  "tags": [
+    "cli",
+    "build"
+  ],
+  "created_at": "2026-03-10T09:05:56.718961Z",
+  "updated_at": "2026-03-10T09:17:08.311702Z",
+  "completed_at": "2026-03-10T09:17:08.311702Z",
+  "parent_id": "57338acc-12ad-4a66-bb47-892da415401a"
+}

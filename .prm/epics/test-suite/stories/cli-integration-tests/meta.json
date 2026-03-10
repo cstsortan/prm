@@ -1,0 +1,16 @@
+{
+  "id": "9482c601-cc8c-4ec0-9451-bbadd3c8e5b9",
+  "type": "story",
+  "slug": "cli-integration-tests",
+  "title": "CLI Integration Tests",
+  "status": "done",
+  "priority": "medium",
+  "tags": [
+    "backend"
+  ],
+  "created_at": "2026-03-10T07:06:43.600329Z",
+  "updated_at": "2026-03-10T07:35:00.124705Z",
+  "started_at": "2026-03-10T07:11:37.325493Z",
+  "completed_at": "2026-03-10T07:35:00.124705Z",
+  "parent_id": "1f6f3116-9a95-4821-b7f9-0a0cfb6465d1"
+}

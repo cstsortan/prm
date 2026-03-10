@@ -1,0 +1,15 @@
+{
+  "id": "3691b347-dc26-42d0-a680-7d7b1256efa0",
+  "type": "sub-task",
+  "slug": "tags-input-with-autocomplete",
+  "title": "Tags input with autocomplete",
+  "status": "done",
+  "priority": "medium",
+  "tags": [
+    "frontend"
+  ],
+  "created_at": "2026-03-10T07:07:19.167573Z",
+  "updated_at": "2026-03-10T07:54:47.92595Z",
+  "completed_at": "2026-03-10T07:54:47.92595Z",
+  "parent_id": "4e0338e9-9655-491c-b0bf-4aa5e691efea"
+}

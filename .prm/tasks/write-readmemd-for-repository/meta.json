@@ -1,0 +1,15 @@
+{
+  "id": "29a97190-8465-4e53-bb94-a1dd58dca0a3",
+  "type": "task",
+  "slug": "write-readmemd-for-repository",
+  "title": "Write README.md for repository",
+  "status": "done",
+  "priority": "low",
+  "tags": [
+    "docs"
+  ],
+  "created_at": "2026-03-10T07:07:26.526776Z",
+  "updated_at": "2026-03-10T09:21:56.98913Z",
+  "started_at": "2026-03-10T09:21:09.952684Z",
+  "completed_at": "2026-03-10T09:21:56.98913Z"
+}

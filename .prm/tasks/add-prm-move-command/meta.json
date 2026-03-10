@@ -1,0 +1,15 @@
+{
+  "id": "4c5f670e-2f3e-4b1f-8d6d-e3cc71e81738",
+  "type": "task",
+  "slug": "add-prm-move-command",
+  "title": "Add prm move command",
+  "status": "done",
+  "priority": "high",
+  "tags": [
+    "feature"
+  ],
+  "created_at": "2026-03-10T08:26:01.574326Z",
+  "updated_at": "2026-03-10T08:56:44.081289Z",
+  "started_at": "2026-03-10T08:55:05.098728Z",
+  "completed_at": "2026-03-10T08:56:44.081289Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "5a5125ca-51ed-4b81-94d6-198fa9d4494f",
+  "type": "task",
+  "slug": "add-dependencies-visualization",
+  "title": "Add dependencies visualization",
+  "status": "done",
+  "priority": "medium",
+  "tags": [
+    "feature"
+  ],
+  "created_at": "2026-03-10T08:26:01.453705Z",
+  "updated_at": "2026-03-10T08:55:01.362278Z",
+  "started_at": "2026-03-10T08:27:46.356674Z",
+  "completed_at": "2026-03-10T08:55:01.362278Z"
+}

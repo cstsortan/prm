@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "project_name": "PRM",
+  "default_priority": "medium",
+  "default_status": "backlog",
+  "tags": [
+    "backend",
+    "frontend",
+    "security",
+    "reviewer",
+    "devops"
+  ],
+  "created_at": "2026-03-10T07:06:16.119895Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4896768e-49cd-44bc-a06f-9a5670634c04",
+  "type": "bug",
+  "slug": "parent-id-stored-as-slug-instead-of-uuid",
+  "title": "Parent ID stored as slug instead of UUID",
+  "status": "done",
+  "priority": "high",
+  "tags": [
+    "backend"
+  ],
+  "created_at": "2026-03-10T07:07:26.540562Z",
+  "updated_at": "2026-03-10T07:09:34.235114Z",
+  "started_at": "2026-03-10T07:08:19.699779Z",
+  "completed_at": "2026-03-10T07:09:34.223441Z",
+  "comments": [
+    {
+      "author": "claude",
+      "text": "When creating a story with --epic, the parent_id is stored as the slug text the user typed, not the parent UUID. Should store actual UUID.",
+      "created_at": "2026-03-10T07:07:34.183675Z"
+    },
+    {
+      "author": "claude",
+      "text": "Fixed: resolveParentDir now returns the resolved UUID. parent_id stores actual UUID instead of user input ref.",
+      "created_at": "2026-03-10T07:09:34.235114Z"
+    }
+  ],
+  "severity": "major"
+}

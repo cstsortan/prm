@@ -1,0 +1,28 @@
+{
+  "id": "1f6f3116-9a95-4821-b7f9-0a0cfb6465d1",
+  "type": "epic",
+  "slug": "test-suite",
+  "title": "Test Suite",
+  "status": "done",
+  "priority": "high",
+  "tags": [
+    "backend"
+  ],
+  "created_at": "2026-03-10T07:06:24.261338Z",
+  "updated_at": "2026-03-10T07:35:00.135748Z",
+  "started_at": "2026-03-10T07:11:37.303599Z",
+  "completed_at": "2026-03-10T07:35:00.130357Z",
+  "comments": [
+    {
+      "author": "claude",
+      "text": "98 tests passing across 4 packages: model (12), store (22), service (40), CLI integration (18). All green.",
+      "created_at": "2026-03-10T07:35:00.135748Z"
+    }
+  ],
+  "children": [
+    "store-layer-tests",
+    "service-layer-tests",
+    "slug-id-resolution-tests",
+    "cli-integration-tests"
+  ]
+}

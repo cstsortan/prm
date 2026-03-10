@@ -1,0 +1,15 @@
+{
+  "id": "2623cc18-62f4-4952-9c71-c2bb2de56bb1",
+  "type": "story",
+  "slug": "auto-detect-tty-and-fallback",
+  "title": "Auto-detect TTY and Fallback",
+  "status": "done",
+  "priority": "medium",
+  "tags": [
+    "backend"
+  ],
+  "created_at": "2026-03-10T07:06:38.100064Z",
+  "updated_at": "2026-03-10T07:54:47.920554Z",
+  "completed_at": "2026-03-10T07:54:47.920554Z",
+  "parent_id": "f14c50e5-8da9-4b3f-bcd1-f8e69e714188"
+}

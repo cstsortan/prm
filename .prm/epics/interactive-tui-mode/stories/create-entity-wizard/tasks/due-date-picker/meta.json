@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-03-10T07:07:19.172754Z",
+  "id": "39b446b2-6f68-4281-9e78-f6163476dcd4",
+  "parent_id": "4e0338e9-9655-491c-b0bf-4aa5e691efea",
+  "priority": "low",
+  "slug": "due-date-picker",
+  "status": "backlog",
+  "tags": [
+    "frontend"
+  ],
+  "title": "Due date picker",
+  "type": "sub-task",
+  "updated_at": "2026-03-10T07:07:19.172754Z"
+}

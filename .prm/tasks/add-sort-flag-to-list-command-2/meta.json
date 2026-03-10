@@ -1,0 +1,15 @@
+{
+  "id": "7f16989b-792e-4eb4-b7f5-56cdbfda932d",
+  "type": "task",
+  "slug": "add-sort-flag-to-list-command-2",
+  "title": "Add --sort flag to list command",
+  "status": "done",
+  "priority": "medium",
+  "tags": [
+    "polish"
+  ],
+  "created_at": "2026-03-10T08:26:01.192011Z",
+  "updated_at": "2026-03-10T08:27:42.496652Z",
+  "started_at": "2026-03-10T08:26:42.482643Z",
+  "completed_at": "2026-03-10T08:27:42.496652Z"
+}

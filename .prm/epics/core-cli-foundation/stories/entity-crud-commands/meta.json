@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-03-10T07:06:30.845289Z",
+  "id": "d57cd01d-215e-495d-87ff-56bf3c4c2b96",
+  "parent_id": "ff8ca0d9-e69d-4db6-92ca-da67b09c049e",
+  "priority": "high",
+  "slug": "entity-crud-commands",
+  "status": "done",
+  "title": "Entity CRUD Commands",
+  "type": "story",
+  "updated_at": "2026-03-10T07:06:30.845289Z"
+}

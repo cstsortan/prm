@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-03-10T07:07:12.088368Z",
+  "id": "7f690405-f187-4710-8e5f-8b2138fe0565",
+  "parent_id": "c725df82-aa4e-463a-9234-b9e345137200",
+  "priority": "high",
+  "slug": "atomic-file-writes",
+  "status": "done",
+  "title": "Atomic file writes",
+  "type": "sub-task",
+  "updated_at": "2026-03-10T07:07:12.088368Z"
+}

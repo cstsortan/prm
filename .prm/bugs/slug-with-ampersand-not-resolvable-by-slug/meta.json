@@ -1,0 +1,28 @@
+{
+  "id": "47dddaf7-7650-446a-94dd-a295ce1abde4",
+  "type": "bug",
+  "slug": "slug-with-ampersand-not-resolvable-by-slug",
+  "title": "Slug with ampersand not resolvable by slug",
+  "status": "done",
+  "priority": "high",
+  "tags": [
+    "backend"
+  ],
+  "created_at": "2026-03-10T07:07:26.535781Z",
+  "updated_at": "2026-03-10T07:09:34.229945Z",
+  "started_at": "2026-03-10T07:08:19.695391Z",
+  "completed_at": "2026-03-10T07:09:34.21765Z",
+  "comments": [
+    {
+      "author": "claude",
+      "text": "The \u0026 character in 'Polish \u0026 Hardening' produces slug 'polish-hardening' which cannot be found. Needs investigation.",
+      "created_at": "2026-03-10T07:07:34.179283Z"
+    },
+    {
+      "author": "claude",
+      "text": "Fixed: \u0026 now converts to 'and' in slugs (+ converts to 'plus'). Polish \u0026 Hardening -\u003e polish-and-hardening.",
+      "created_at": "2026-03-10T07:09:34.229945Z"
+    }
+  ],
+  "severity": "minor"
+}

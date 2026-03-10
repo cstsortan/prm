@@ -1,0 +1,18 @@
+{
+  "children": [
+    "entity-model-structs",
+    "atomic-file-writes",
+    "index-management",
+    "slug-generation",
+    "idslug-resolution"
+  ],
+  "created_at": "2026-03-10T07:06:30.839986Z",
+  "id": "c725df82-aa4e-463a-9234-b9e345137200",
+  "parent_id": "ff8ca0d9-e69d-4db6-92ca-da67b09c049e",
+  "priority": "high",
+  "slug": "data-model-store-layer",
+  "status": "done",
+  "title": "Data Model \u0026 Store Layer",
+  "type": "story",
+  "updated_at": "2026-03-10T07:07:12.106181Z"
+}

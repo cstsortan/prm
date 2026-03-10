@@ -1,0 +1,15 @@
+{
+  "id": "5cf4f643-2460-4bbe-82e0-5053d5465dad",
+  "type": "story",
+  "slug": "body-and-edit-for-readmemd",
+  "title": "Body \u0026 Edit for README.md",
+  "status": "done",
+  "priority": "medium",
+  "tags": [
+    "backend"
+  ],
+  "created_at": "2026-03-10T08:07:41.455653Z",
+  "updated_at": "2026-03-10T08:07:45.433041Z",
+  "completed_at": "2026-03-10T08:07:45.433041Z",
+  "parent_id": "ff8ca0d9-e69d-4db6-92ca-da67b09c049e"
+}

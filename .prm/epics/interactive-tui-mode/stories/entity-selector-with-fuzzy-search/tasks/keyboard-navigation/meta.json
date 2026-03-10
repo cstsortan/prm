@@ -1,0 +1,15 @@
+{
+  "id": "bf38126e-2c0a-4281-ae63-9f24978f85ed",
+  "type": "sub-task",
+  "slug": "keyboard-navigation",
+  "title": "Keyboard navigation",
+  "status": "done",
+  "priority": "medium",
+  "tags": [
+    "frontend"
+  ],
+  "created_at": "2026-03-10T07:07:19.182462Z",
+  "updated_at": "2026-03-10T07:54:47.897871Z",
+  "completed_at": "2026-03-10T07:54:47.897871Z",
+  "parent_id": "338492f2-9323-4cc0-b080-e1af4b4b2809"
+}

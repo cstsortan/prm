@@ -1,0 +1,17 @@
+{
+  "id": "d8b8d552-94aa-46b4-963b-11bd73ff1152",
+  "type": "story",
+  "slug": "rest-api-backend",
+  "title": "REST API Backend",
+  "status": "done",
+  "priority": "high",
+  "tags": [
+    "backend",
+    "api"
+  ],
+  "created_at": "2026-03-10T09:05:50.213011Z",
+  "updated_at": "2026-03-10T09:10:25.66077Z",
+  "started_at": "2026-03-10T09:07:30.226441Z",
+  "completed_at": "2026-03-10T09:10:25.66077Z",
+  "parent_id": "57338acc-12ad-4a66-bb47-892da415401a"
+}

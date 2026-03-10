@@ -1,0 +1,17 @@
+{
+  "id": "32a4600b-73c2-4c48-bc63-ededefb44dab",
+  "type": "bug",
+  "slug": "web-ui-item-view-does-not-show-children",
+  "title": "Web UI item view does not show children",
+  "status": "done",
+  "priority": "medium",
+  "tags": [
+    "web",
+    "frontend"
+  ],
+  "created_at": "2026-03-10T09:34:13.12295Z",
+  "updated_at": "2026-03-10T09:36:15.557945Z",
+  "started_at": "2026-03-10T09:34:16.146152Z",
+  "completed_at": "2026-03-10T09:35:22.583956Z",
+  "severity": "minor"
+}
