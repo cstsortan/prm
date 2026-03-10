@@ -40,29 +40,29 @@ The binary is built to `./bin/prm`.
 
 ```bash
 # Initialize PRM in your project
-./bin/prm init
+prm init
 
 # Create an epic
-./bin/prm epic create --title "User Authentication" --priority high
+prm epic create --title "User Authentication" --priority high
 
 # Break it into stories
-./bin/prm story create --epic user-authentication --title "Login flow"
-./bin/prm story create --epic user-authentication --title "Password reset"
+prm story create --epic user-authentication --title "Login flow"
+prm story create --epic user-authentication --title "Password reset"
 
 # Track a standalone task
-./bin/prm task create --title "Set up CI pipeline" --priority medium
+prm task create --title "Set up CI pipeline" --priority medium
 
 # Log a bug
-./bin/prm bug create --title "Login timeout too short" --severity major
+prm bug create --title "Login timeout too short" --severity major
 
 # See the big picture
-./bin/prm dashboard
-./bin/prm tree user-authentication
+prm dashboard
+prm tree user-authentication
 
 # Update progress
-./bin/prm status login-flow in-progress
-./bin/prm comment login-flow --text "Implemented OAuth provider"
-./bin/prm status login-flow done
+prm status login-flow in-progress
+prm comment login-flow --text "Implemented OAuth provider"
+prm status login-flow done
 ```
 
 ## Entity Types
@@ -125,8 +125,8 @@ Items can be referenced by slug (e.g., `user-auth`) or partial UUID (min 4 chars
 ## Web UI
 
 ```bash
-./bin/prm web           # Opens browser on port 3141
-./bin/prm web --port 8080 --no-open
+prm web           # Opens browser on port 3141
+prm web --port 8080 --no-open
 ```
 
 ## Claude Code Integration
@@ -134,7 +134,7 @@ Items can be referenced by slug (e.g., `user-auth`) or partial UUID (min 4 chars
 PRM includes a skill file that teaches Claude Code how to manage work items:
 
 ```bash
-./bin/prm install-skill
+prm install-skill
 ```
 
 This copies the skill to `.claude/commands/prm.md`. Claude Code can then create epics, track tasks, update statuses, and more — all through the CLI.

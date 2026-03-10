@@ -2,7 +2,7 @@
 
 ## What is this?
 
-A CLI project management tool written in Go. It stores all data as `.json` and `.md` files in a `.prm/` directory within a codebase. Binary lives at `./bin/prm`.
+A CLI project management tool written in Go. It stores all data as `.json` and `.md` files in a `.prm/` directory within a codebase. Install globally with `go install github.com/cstsortan/prm@latest`, or build locally with `make build` (outputs to `./bin/prm`).
 
 ## Quick Reference
 
@@ -79,7 +79,7 @@ Non-interactive: all params via flags. Interactive: missing required fields trig
 
 ## Task Tracking
 
-When the user requests multiple features, a batch of work, or any non-trivial implementation effort, you MUST break the work into tasks using `./bin/prm task create` (or epics/stories as appropriate) BEFORE writing any code. Update task status with `./bin/prm status <slug> in-progress` when starting and `./bin/prm status <slug> done` when finished. This is not optional — plan first, then execute.
+When the user requests multiple features, a batch of work, or any non-trivial implementation effort, you MUST break the work into tasks using `prm task create` (or epics/stories as appropriate) BEFORE writing any code. Update task status with `prm status <slug> in-progress` when starting and `prm status <slug> done` when finished. This is not optional — plan first, then execute.
 
 ## Keeping the Skill Up to Date
 
@@ -97,41 +97,41 @@ After adding, changing, or removing CLI commands, flags, or statuses, you MUST u
 
 ## Using PRM as an Agent
 
-You can manage project work items using the `./bin/prm` binary. Common operations:
+You can manage project work items using the `prm` binary. Common operations:
 
 ```bash
 # Initialize (first time only)
-./bin/prm init
+prm init
 
 # Create items
-./bin/prm epic create --title "Feature Name" --priority high --tags "backend,security"
-./bin/prm story create --epic <epic-slug> --title "Story Name"
-./bin/prm task create --title "Standalone Task" --priority medium
-./bin/prm bug create --title "Bug Title" --severity major
+prm epic create --title "Feature Name" --priority high --tags "backend,security"
+prm story create --epic <epic-slug> --title "Story Name"
+prm task create --title "Standalone Task" --priority medium
+prm bug create --title "Bug Title" --severity major
 
 # Create with detailed description (README.md content)
-./bin/prm epic create --title "Feature Name" --body "# Feature Name
+prm epic create --title "Feature Name" --body "# Feature Name
 
 ## Goals
 - Goal 1
 - Goal 2"
 
 # Update status
-./bin/prm status <id-or-slug> in-progress
-./bin/prm status <id-or-slug> done
+prm status <id-or-slug> in-progress
+prm status <id-or-slug> done
 
 # Update detailed description
-./bin/prm epic update <id-or-slug> --body "# Updated content..."
+prm epic update <id-or-slug> --body "# Updated content..."
 
 # Edit README.md in $EDITOR
-./bin/prm epic edit <id-or-slug>
+prm epic edit <id-or-slug>
 
 # Add comments
-./bin/prm comment <id-or-slug> --text "Completed the implementation"
+prm comment <id-or-slug> --text "Completed the implementation"
 
 # View work
-./bin/prm list --status todo,in-progress
-./bin/prm tree <epic-slug>
-./bin/prm dashboard
-./bin/prm search "auth"
+prm list --status todo,in-progress
+prm tree <epic-slug>
+prm dashboard
+prm search "auth"
 ```
