@@ -10,10 +10,17 @@ import (
 	"github.com/cstsortan/prm/internal/store"
 )
 
+var (
+	version = "dev"
+	commit  = "none"
+	date    = "unknown"
+)
+
 var rootCmd = &cobra.Command{
-	Use:   "prm",
-	Short: "PRM - Project Resource Manager",
-	Long:  "A CLI project management tool that stores data as .json and .md files.",
+	Use:     "prm",
+	Short:   "PRM - Project Resource Manager",
+	Long:    "A CLI project management tool that stores data as .json and .md files.",
+	Version: version,
 }
 
 // Execute runs the root command.
